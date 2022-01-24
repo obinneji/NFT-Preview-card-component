@@ -1,0 +1,122 @@
+*{
+
+margin: 0
+}
+body{
+    box-sizing: border-box;
+    background-color: hsl(217, 54%, 11%);
+    width:  1440px;
+    font-family: Outfit;
+}
+h2{
+  margin-left: 40px;
+  margin-top: 20px;
+  color:  hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+span{
+  color:  hsl(0, 0%, 100%);
+  margin-left: 5px;
+}
+hr{
+  margin: 20px 40px 10px;
+  border-style: solid;
+  border: 0.5px 0;
+  color: hsl(215, 32%, 27%);
+}
+
+.main-container{
+    background-color: hsl(216, 50%, 16%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+   height: 80%;
+   width: 30%;
+   border-radius: 10px;
+
+}
+.nft-container{
+
+ margin: 20px auto;
+ height: 50%;
+ width: 80%;
+ -padding: 12px;
+ border-radius: 10px;
+
+}
+.equilibrium{
+  height: 100%;
+  width: 100%;
+   border-radius: 10px;
+}
+
+.text-unit{
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-right: 45px;
+  line-height: 1.5;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.ethandtime-container{
+  display: flex;
+  margin-top: 0;
+  /* margin-left 20px ; */
+
+
+}
+.eth-container{
+  color: hsl(178, 100%, 50%);
+  display: flex;
+  margin-left: 40px;
+  align-items: center;
+  font-weight: 400;
+
+
+}
+.time-container{
+  margin-left: auto;
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+.creator-section{
+  display: flex;
+  align-items: center;
+
+
+}
+.creator-image{
+  height: 40px;
+  width: 40px;
+  margin-left: 40px;
+}
+.ml-2{
+  margin-left: 10px;
+}
+.ml-3{
+  margin-left: 20px;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+.mr-1{
+  margin-right: 10px;
+}
+@media (max-width: 700px) {
+body{
+ overflow: scroll;
+}
+  .main-container{
+    -position: static;
+    width: 80%;
+    height: 75%;
+  }
+
+}
